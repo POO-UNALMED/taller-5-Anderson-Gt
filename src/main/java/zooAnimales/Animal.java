@@ -32,7 +32,7 @@ public class Animal {
 		
 	}
 	
-	public Animal(int totalAnimales,String nombre,int edad,String habitat, String genero) {
+	public Animal(String nombre,int edad,String habitat, String genero) {
 		totalAnimales++;
 		this.setNombre(nombre);
 		this.setEdad(edad);
