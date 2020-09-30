@@ -17,7 +17,7 @@ public class Ave extends Animal{
 	
 	public static Ave crearHalcon(String nombre, int edad,String genero) {
 		halcones++;
-		Ave avv = new Ave(nombre,edad,"montañas",genero,"cae glorioso");
+		Ave avv = new Ave(nombre,edad,"montanas",genero,"cae glorioso");
 		return avv;		
 	}
 	
